@@ -20,7 +20,7 @@ $(document).ready(function() {
 document.addEventListener('visibilitychange',
     function() {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Shivam Agarwal";
+            document.title = "Projects | Portfolio Yogabala";
             $("#favicon").attr("href", "/assests/images/favicon2.png");
         } else {
             document.title = "Come Back To Portfolio";

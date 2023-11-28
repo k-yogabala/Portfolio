@@ -69,7 +69,7 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
     function() {
         if (document.visibilityState === "visible") {
-            document.title = "Experience | Portfolio Shivam Agarwal";
+            document.title = "Experience | Portfolio Yogabala";
             $("#favicon").attr("href", "/assests/images/favicon2.png");
         } else {
             document.title = "Come Back To Portfolio";
