@@ -73,7 +73,7 @@ function loader() {
 }
 
 function fadeOut() {
-    setInterval(loader, 500);
+    setInterval(loader, 3000);
 }
 window.onload = fadeOut;
 // pre loader end
